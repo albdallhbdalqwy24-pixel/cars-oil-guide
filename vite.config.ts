@@ -5,7 +5,7 @@ export default defineConfig({
   base: './',
   base: './',
   root: "client",
-  base: "/cars-oil-guide/",
+  base: './',
   plugins: [react()],
   server: { allowedHosts: true },
   build: { outDir: "../dist", emptyOutDir: true },
